@@ -1,0 +1,26 @@
+# Flask web framework
+Flask==2.0.1
+# MarkupSafe for HTML escaping
+MarkupSafe==2.0.1
+
+Werkzeug==2.0.1
+# IsDangerous library
+itsdangerous==2.0.1
+psutil==5.8.0
+# Plotly for interactive visualizations
+plotly==5.3.1
+# Tenaci ty for retrying operations
+tenacity==8.0.1
+
+
+
+# Boto3 AWS SDK
+Boto3==1.18.36
+
+
+# Kubernetes client library
+kubernetes==18.20.0
+
+
+
+

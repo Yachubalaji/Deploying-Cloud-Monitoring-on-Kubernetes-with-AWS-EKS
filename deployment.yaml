@@ -1,0 +1,19 @@
+#apiVersion: apps/v1
+#kind: Deployment
+#metadata:
+ # name: cloud-monitoring-app
+#spec:
+ # replicas: 2
+ # selector:
+  #  matchLabels:
+   #   app: cloud-monitoring
+  #template:
+   # metadata:
+    #  labels:
+     #   app: cloud-monitoring
+    #spec:
+     # containers:
+     # - name: cloud-monitoring
+      #  image: 266486187426.dkr.ecr.us-east-1.amazonaws.com/yachubalaji:latest
+       # ports:
+       # - containerPort: 8081
